@@ -1,0 +1,79 @@
+.fixed-height-sec-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.h5-user-title-sec- {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 127px;
+  white-space: nowrap;
+}
+.small-job-description-sec- {
+  width: 66px;
+  position: relative;
+  font-size: var(--small-size);
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  color: var(--second-text-color);
+  display: inline-block;
+  min-width: 66px;
+}
+.facebook-icon,
+.twitter-icon {
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon {
+  height: 24px;
+  min-height: 24px;
+}
+.twitter-icon {
+  height: 19.8px;
+}
+.social-media-sec- {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.card-content1 {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-11xl) var(--padding-36xl);
+  gap: var(--gap-3xs);
+}
+.card-content1,
+.col-md-3,
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.user-card {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: var(--accentued-drop-shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--light-background-color);
+  overflow: hidden;
+}
+.col-md-3 {
+  height: 375px;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--text-color);
+  font-family: var(--link);
+}

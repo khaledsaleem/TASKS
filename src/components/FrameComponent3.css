@@ -1,0 +1,126 @@
+.h6-section-tag-sec-2 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 41px;
+}
+.h3-section-title-sec- {
+  margin: 0;
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--text-color);
+}
+.problems-trying-to4 {
+  margin: 0;
+}
+.paragraph-sec-5 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--second-text-color);
+  display: inline-block;
+  max-width: 100%;
+}
+.main-content1,
+.row4,
+.row5 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main-content1 {
+  width: 691px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.row4,
+.row5 {
+  align-self: stretch;
+}
+.row4 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.row5 {
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  grid-template-columns: repeat(4, minmax(181px, 1fr));
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--text-color);
+}
+.container-wrapper,
+.container2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container2 {
+  width: 1050px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-93xl) 0;
+  gap: var(--gap-93xl);
+  z-index: 1;
+}
+.container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--primary-text-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1125px) {
+  .container2 {
+    gap: var(--gap-37xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .row5 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(181px, 313px));
+  }
+  .container2 {
+    padding-top: var(--padding-54xl);
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container2 {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h3-section-title-sec- {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .row5 {
+    grid-template-columns: minmax(181px, 1fr);
+  }
+  .container2 {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}

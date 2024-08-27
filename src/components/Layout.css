@@ -1,0 +1,129 @@
+.h2-section-title-4-sec-1,
+.h6-section-tag-sec-1 {
+  position: relative;
+  letter-spacing: 0.2px;
+  display: inline-block;
+}
+.h6-section-tag-sec-1 {
+  line-height: 24px;
+  min-width: 95px;
+}
+.h2-section-title-4-sec-1 {
+  margin: 0;
+  font-size: var(--h2-size);
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--text-color);
+  max-width: 100%;
+}
+.problems-trying-to3 {
+  margin: 0;
+}
+.paragraph-sec-4 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--second-text-color);
+  display: inline-block;
+  max-width: 100%;
+}
+.main-content,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.main-content {
+  width: 691px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.row2,
+.row3 {
+  align-self: stretch;
+}
+.row2 {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.row3 {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-11xl);
+  text-align: center;
+  color: var(--second-text-color);
+}
+.container1,
+.layout-5 {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.container1 {
+  width: 1050px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-141xl) 0;
+  gap: var(--gap-77xl);
+  max-width: calc(100% - 0px);
+}
+.layout-5 {
+  align-self: stretch;
+  height: 865px;
+  background-color: var(--light-background-color);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--primary-text-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1125px) {
+  .container1 {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .h2-section-title-4-sec-1 {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .container1 {
+    padding-top: var(--padding-85xl);
+    padding-bottom: var(--padding-85xl);
+    box-sizing: border-box;
+  }
+  .layout-5 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2-section-title-4-sec-1 {
+    font-size: var(--h3-size);
+    line-height: 30px;
+  }
+  .container1 {
+    padding-top: var(--padding-49xl);
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}

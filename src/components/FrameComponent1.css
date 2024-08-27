@@ -1,0 +1,87 @@
+.made-with-love {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.col-md-7 {
+  width: 600px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.facebook-icon1,
+.twitter-icon1 {
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook-icon1 {
+  height: 24px;
+  min-height: 24px;
+}
+.twitter-icon1 {
+  height: 19.8px;
+}
+.social-media {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.col-md-62,
+.row7,
+.social-media {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.col-md-62 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl);
+}
+.row7 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.container-frame,
+.container4 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container4 {
+  width: 1050px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-12xs) var(--padding-6xl) 0;
+}
+.container-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--second-text-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1050px) {
+  .row7 {
+    flex-wrap: wrap;
+  }
+}

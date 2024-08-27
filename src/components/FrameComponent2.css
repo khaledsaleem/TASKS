@@ -1,0 +1,149 @@
+.fixed-width-fixed-height-sec-1 {
+  width: 94px;
+  height: 7px;
+  position: relative;
+  background-color: var(--danger-color);
+}
+.h2-section-title-4-sec- {
+  margin: 0;
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  font-size: var(--h2-size);
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.problems-trying-to {
+  margin: 0;
+}
+.h6,
+.paragraph-sec- {
+  position: relative;
+  letter-spacing: 0.2px;
+  display: inline-block;
+}
+.paragraph-sec- {
+  line-height: 20px;
+  color: var(--second-text-color);
+  max-width: 100%;
+}
+.h6 {
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  min-width: 85px;
+  white-space: nowrap;
+}
+.icon-arrow-next {
+  width: 9px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-arrow-next-wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.block-content,
+.h6-parent,
+.icon-arrow-next-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.h6-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  color: var(--primary-text-color);
+}
+.block-content {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.block-content,
+.content-block,
+.hero {
+  justify-content: flex-start;
+}
+.content-block {
+  width: 446px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+  min-width: 446px;
+  max-width: 100%;
+}
+.hero {
+  width: 513px;
+  gap: var(--gap-mini);
+  min-width: 513px;
+  font-size: var(--h5-size);
+}
+.content-block-parent,
+.hero,
+.school-sound-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content-block-parent {
+  width: 1050px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.school-sound-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-360xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--text-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1050px) {
+  .h2-section-title-4-sec- {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .content-block,
+  .hero {
+    flex: 1;
+  }
+  .content-block-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content-block,
+  .hero {
+    min-width: 100%;
+  }
+  .school-sound-inner {
+    padding-bottom: var(--padding-227xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2-section-title-4-sec- {
+    font-size: var(--h3-size);
+    line-height: 30px;
+  }
+  .block-content {
+    gap: var(--gap-mid);
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+}
